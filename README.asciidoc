@@ -30,7 +30,7 @@ the beginning of this page**
 
 1. Home water consumption/leakage detection. see https://github.com/hhaim/hass/wiki/Monitor-water-consumption-and-more-with-Home-Assistant[wiki]
 ** Tasmota + Wemo d1  
-** Sensor link:https://www.revaho.nl/wp-content/uploads/Ch_11_Water_meters.pdf[water sensor ev 1 litter] 
+** Sensor link:https://www.revaho.nl/wp-content/uploads/Ch_11_Water_meters.pdf[water sensor ev 1 liter] 
 2. Air Conditioner automation  (Electra /Israel) 
 ** Uses SonOff 4ch pro for cold switch on/off 
 3. Alarm: Converting old PIMA Alarm + xiaomi mii sensros to be new smart alarm inspired by link:https://konnected.io/products/konnected-alarm-panel-wired-alarm-system-conversion-kit[konnected]
@@ -372,7 +372,7 @@ wb_irrigation:
   m_temp_celsius: 26 #fill from here https://www.holiday-weather.com/[your location]/averages/
   m_temp_hours: 12 #fill from here https://www.holiday-weather.com/[your location]/averages/
   enabled: input_boolean.wbi_enabled #disable irrigation  # disable the irrigation 
-  water_sensor: sensor.water_total_external_norm # read total water  # optional to read water global sensor in litters 
+  water_sensor: sensor.water_total_external_norm # read total water  # optional to read water global sensor in liters 
   taps: 
      - name: p1  # the name of the tap
        days: [1,3,5]  # 1-7 1 for sunday, .. 7 for saturday 
