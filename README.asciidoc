@@ -30,7 +30,7 @@ the beginning of this page**
 
 1. Home water consumption/leakage detection. see https://github.com/hhaim/hass/wiki/Monitor-water-consumption-and-more-with-Home-Assistant[wiki]
 ** Tasmota + Wemo d1  
-** Sensor link:https://www.revaho.nl/wp-content/uploads/Ch_11_Water_meters.pdf[water sensor ev 1 litter] 
+** Sensor link:https://www.revaho.nl/wp-content/uploads/Ch_11_Water_meters.pdf[water sensor ev 1 liter] 
 2. Air Conditioner automation  (Electra /Israel) 
 ** Uses SonOff 4ch pro for cold switch on/off 
 3. Alarm: Converting old PIMA Alarm + xiaomi mii sensros to be new smart alarm inspired by link:https://konnected.io/products/konnected-alarm-panel-wired-alarm-system-conversion-kit[konnected]
